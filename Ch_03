@@ -1,0 +1,33 @@
+class City {
+    String City;
+    String Country;
+}
+
+
+class CityTestDrive {
+    public static void main(String[] args) {
+        City[] myCity = new City[4];
+        int x = 0;
+        myCity[0] = new City();
+        myCity[1] = new City();
+        myCity[2] = new City();
+        myCity[3] = new City();
+        myCity[0].City = "Seoul";
+        myCity[1].City = "Mumbai";
+        myCity[2].City = "Paris";
+        myCity[3].City = "Vancouver";
+        myCity[0].Country = "Korea";
+        myCity[1].Country = "India";
+        myCity[2].Country = "France";
+        myCity[3].Country = "Canada";
+        while (x < 4) {
+            System.out.print(myCity[x].City);
+            System.out.print("is major city of");
+            System.out.print(myCity[x].Country);
+            x = x + 1;
+
+
+        }
+
+    }
+}
