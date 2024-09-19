@@ -9,6 +9,9 @@ class StreamingSong {
 
     void printDetails() {
         System.out.println("This is " + title + " by " + artist);
+        System.out.println("This is " + title + " by " + artist);
+        System.out.println("This is " + title + " by " + artist);
+
     }
 }
 
